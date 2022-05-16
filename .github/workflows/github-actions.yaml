@@ -4,7 +4,7 @@ jobs:
   Run-Backend-and-Frontend:
     runs-on: ubuntu-latest
     strategy:
-      node-version 16.13.1
+      node-version 16
     steps:
       - uses: actions/checkout@v2
       
